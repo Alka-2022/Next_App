@@ -1,0 +1,81 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {
+      colors: {
+        gray: {
+          "100": "#fdfdfd",
+          "200": "#fcfcfc",
+          "300": "#7a7a7a",
+          "400": "#262626",
+        },
+        dimgray: {
+          "100": "#626262",
+          "200": "#585858",
+          "300": "#603b3b",
+        },
+        beige: "#faf3dc",
+        linear: "#c4a204",
+        mistyrose: "#ffdfd1",
+        orange: "#ee9813",
+        peachpuff: "#fbc4ac",
+        darksalmon: "#dd9d81",
+        coral: "#ff9061",
+        white: "#fff",
+        darkgray: {
+          "100": "#979595",
+          "200": "#959595",
+        },
+        saddlebrown: "#6b4500",
+        darkslategray: "#313131",
+        linen: {
+          "100": "#ffeee7",
+          "200": "#ffece4",
+        },
+        lightseagreen: "rgba(3, 166, 166, 0.7)",
+        gold: "#efc325",
+        floralwhite: "#fffcf1",
+        deeppink: "#ff25b6",
+        orangered: "#ff550d",
+        goldenrod: "#f2ba41",
+        navajowhite: "#fbdd9d",
+        sienna: "#7c3838",
+        palevioletred: "#ff709d",
+        gainsboro: "#ded9d3",
+      },
+      spacing: {},
+      fontFamily: {
+        poppins: "Poppins",
+        "abhaya-libre-extrabold": "'Abhaya Libre ExtraBold'",
+        brolimo: "BROLIMO",
+        kurale: "Kurale",
+      },
+      borderRadius: {
+        "31xl": "50px",
+        "10xs-4": "2.4px",
+        xl: "20px",
+        lg: "18px",
+        "3xs": "10px",
+        "381xl": "400px",
+      },
+    },
+    fontSize: {
+      base: "16px",
+      xs: "12px",
+      sm: "14px",
+      mini: "15px",
+      "2xs": "11px",
+      xl: "20px",
+      mid: "17px",
+      "mid-1": "17.1px",
+      inherit: "inherit",
+    },
+  },
+  corePlugins: {
+    preflight: false,
+  },
+};
